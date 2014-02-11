@@ -1,0 +1,697 @@
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,700italic&subset=latin,cyrillic);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.fl {float: left;}
+.fr {float: right;}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header .wrap {
+    height: 110px;
+}
+
+	.logo {
+		width: 341px;
+		display: block;
+		padding-left: 20px;
+		padding-top: 43px;
+	}
+
+		.logo, .logo a {
+			font: 30px 'Exo 2', sans-serif;
+			color: #2d3240;
+			font-style: italic;
+			font-weight: 700;
+			line-height: 20px;
+			text-decoration: none;
+		}
+
+	.address {
+		width: 230px;
+		height: 40px;
+		font: 15px Arial;
+		color: #575b66;
+		line-height: 10px;
+		padding-left: 36px;
+		padding-top: 51px;
+		background: url(/images/pin.png) no-repeat left 41px;
+	}
+
+	.phone {
+		width: 230px;
+		height: 40px;
+		font: 30px 'Exo 2', sans-serif;
+		text-align: right;
+		color: #2d3240;
+		line-height: 20px;
+		padding-top: 44px;
+		padding-right: 20px;
+	}
+
+
+/* Nayti Detal
+-----------------------------------------------------------------------------*/
+
+#nayti_detal {
+	background: url(/images/bg_nayti_detal.jpg) no-repeat center top;
+}
+
+	#nayti_detal .wrap {
+		height: 450px;
+	}
+
+		#nayti_detal h1 {
+			height: 103px;
+			font: 40px 'Exo 2', sans-serif;
+			text-align: center;
+			color: #0b3491;
+			line-height: 48px;
+			padding-top: 104px;
+		}
+
+		#nayti_detal p {
+			height: 70px;
+			font: 18px 'Exo 2', sans-serif;
+			text-align: center;
+			color: #2d3240;
+			line-height: 22px;
+			padding-top: 10px;
+		}
+
+		#nayti_detal .button {
+			background: url(/images/button.png) no-repeat;
+			width: 280px;
+			height: 39px;
+			margin: 0 auto;
+			padding-top: 11px;
+			display: block;
+			font: 20px 'Exo 2', sans-serif;
+			text-align: center;
+			color: #fff;
+			line-height: 22px;
+			text-align: center;
+			text-decoration: none;
+		}
+
+
+/* Katalog
+-----------------------------------------------------------------------------*/
+
+#katalog {
+	
+}
+
+	#katalog .wrap {
+		height: 550px;
+	}
+
+		#katalog h2 {
+			height: 47px;
+			font: 30px 'Exo 2', sans-serif;
+			text-align: center;
+			color: #2d3240;
+			line-height: 48px;
+			padding-top: 56px;
+		}
+
+		#katalog h3 {
+			height: 71px;
+			font: 22px 'Exo 2', sans-serif;
+			text-align: center;
+			color: #0b3491;
+			line-height: 48px;
+			padding-top: 4px;
+		}
+
+		#katalog .slider {
+			width: 760px;
+			margin: 0 auto;
+		}
+
+			#katalog li {
+				height: 270px;
+			}
+
+				#katalog .img {
+					float: left;
+					position: absolute;
+					bottom: 30px;
+				}
+
+				#katalog .description {
+					float: right;
+				}
+
+				#katalog .description h3 {
+					height: 50px;
+					font: 30px 'Exo 2', sans-serif;
+					text-align: left;
+					color: #2d3240;
+					line-height: 20px;
+					padding-top: 79px;
+				}
+
+					#katalog .price_wrap {
+						background: url(/images/bg_price.png) no-repeat;
+						width: 333px;
+						height: 126px;
+					}
+
+						#katalog .price {
+							display: table;
+							padding-top: 24px;
+							margin: 0 auto;
+						}
+
+							#katalog .price p {
+								height: 26px;
+								font: 22px 'Exo 2', sans-serif;
+								text-align: left;
+								color: #2d3240;
+								line-height: 20px;
+								padding-top: 10px;
+							}
+
+								.price .old {
+									color: #575b66;
+								}
+
+								.price .new {
+									color: #0b3491;
+								}
+
+
+/* Stoit li pokupat
+-----------------------------------------------------------------------------*/
+
+#stoit_li_pokupat {
+	background: url(/images/bg_stoit_li_pokupat.jpg) no-repeat center top;
+}
+
+	#stoit_li_pokupat .wrap {
+		height: 498px;
+	}
+
+	#stoit_li_pokupat h3 {
+			height: 160px;
+			font: 30px 'Exo 2', sans-serif;
+			text-align: center;
+			color: #fff;
+			line-height: 48px;
+			padding-top: 4px;
+	}
+
+	#stoit_li_pokupat .left {
+			padding-left: 12px;
+	}
+
+	#stoit_li_pokupat .right {
+			padding-right: 12px;
+	}
+
+		#stoit_li_pokupat .otvet, #stoit_li_pokupat .otvet {
+				width: 338px;
+				height: 68px;
+				background: url(/images/bg_left_otvet.png) no-repeat;
+				font: 15px Arial;
+				color: #fff;
+				line-height: 18px;
+				padding: 35px 35px 20px 92px;
+				margin-bottom: 17px;
+		}
+
+		#stoit_li_pokupat .str_2 {
+				padding-top: 42px;
+				padding-bottom: 13px;
+		}
+
+		#stoit_li_pokupat .str_4 {
+				padding-top: 26px;
+				padding-bottom: 29px;
+		}
+
+		#stoit_li_pokupat .right .otvet {
+				background: url(/images/bg_right_otvet.png) no-repeat;
+				color: #ffea00;
+		}
+
+
+/* Spisok modelei
+-----------------------------------------------------------------------------*/
+
+#spisok_modelei {
+	
+}
+
+	#spisok_modelei .wrap {
+		height: 501px;
+	}
+
+		#spisok_modelei h3 {
+				height: 47px;
+				font: 30px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #2d3240;
+				line-height: 48px;
+				padding-top: 57px;
+		}
+
+		#spisok_modelei h4 {
+				height: 81px;
+				font: 22px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #0b3491;
+				line-height: 48px;
+				padding-top: 4px;
+		}
+
+		#spisok_modelei .left {
+				padding-left: 19px;
+		}
+
+		#spisok_modelei .right {
+				padding-right: 3px;
+		}
+
+			#spisok_modelei tr {
+					height: 40px;
+			}
+
+			#spisok_modelei td {
+					color: #2D3240;
+					font: 15px Arial;
+					vertical-align: middle;
+			}
+
+			#spisok_modelei td:nth-child(1n) {
+					font-weight: bold;
+					text-align: center;
+			}
+
+			#spisok_modelei td:nth-child(2n) {
+					color: #0B3491;
+					font-weight: normal;
+					text-align: left;
+					padding-left: 25px;
+			}
+
+			#spisok_modelei tr:nth-child(2n-1) td:nth-child(2n-1) {
+					background-color: #D6D8DF;
+			}
+
+			#spisok_modelei tr:nth-child(2n-1) td:nth-child(2n) {
+					background-color: #E2E3E8;
+			}
+
+			#spisok_modelei tr:nth-child(2n) td:nth-child(2n-1) {
+					background-color: #F5F6F7;
+			}
+
+			#spisok_modelei tr:first-child td:first-child {
+					border-radius: 7px 0 0 0;
+					-moz-border-radius: 7px 0 0 0;
+					-webkit-border-radius: 7px 0 0 0;
+			}
+
+			#spisok_modelei tr:first-child td:last-child {
+					border-radius: 0 7px 0 0;
+					-moz-border-radius: 0 7px 0 0;
+					-webkit-border-radius: 0 7px 0 0;
+			}
+
+			#spisok_modelei tr:last-child td:first-child {
+					border-radius: 0 0 0 7px;
+					-moz-border-radius: 0 0 0 7px;
+					-webkit-border-radius: 0 0 0 7px;
+			}
+
+			#spisok_modelei tr:last-child td:last-child {
+					border-radius: 0 0 7px 0;
+					-moz-border-radius: 0 0 7px 0;
+					-webkit-border-radius: 0 0 7px 0;
+			}
+
+
+/* Zaiavka
+-----------------------------------------------------------------------------*/
+
+#zaiavka {
+	background: url(/images/bg_zaiavka.jpg) no-repeat center top;
+}
+
+	#zaiavka .wrap {
+		height: 735px;
+	}
+
+		#zaiavka h3 {
+				height: 88px;
+				font: 30px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #2d3240;
+				line-height: 36px;
+				padding-top: 63px;
+		}
+
+		#zaiavka h4 {
+				height: 86px;
+				font: 22px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #0b3491;
+				line-height: 27px;
+				padding-top: 4px;
+		}
+
+		#zaiavka form {
+				background: url(/images/bg_form.png) no-repeat;
+				height: 433px;
+				width: 616px;
+				margin: 0 auto;
+				padding-top: 61px;
+		}
+
+		#zaiavka input {
+				height: 46px;
+				width: 348px;
+				color: #7e828c;
+				font: 15px 'Exo 2', sans-serif;
+				border: 1px solid #ced1d9;
+				display: block;
+    			margin: 0 auto 7px;
+    			border-radius: 7px;
+		        -moz-border-radius: 7px;
+		        -webkit-border-radius: 7px;
+    			text-align: center;
+		}
+		
+		#zaiavka button {
+		        background: url(/images/zaiavka_btn.png) no-repeat;
+		        width: 350px;
+		        height: 50px;
+		        font: 19px Arial;
+		        color: #fff;
+		        border: none;
+		        margin: 0 auto;
+		        cursor: pointer;
+		        display: block;
+      	}
+
+
+/* Otkuda detali
+-----------------------------------------------------------------------------*/
+
+#otkuda_detali {
+}
+
+	#otkuda_detali .wrap {
+		height: 735px;
+		background: url(/images/map_sources.png) no-repeat center top;
+	}
+
+		#otkuda_detali h3 {
+				height: 492px;
+				font: 30px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #2d3240;
+				line-height: 36px;
+				padding-top: 63px;
+		}
+
+		#otkuda_detali p {
+				height: 68px;
+				font: 15px Arial;
+				text-align: center;
+				color: #2d3240;
+				line-height: 18px;
+				padding-top: 6px;
+		}
+
+		#otkuda_detali h4 {
+				height: 42px;
+				font: 30px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #0b3491;
+				line-height: 36px;
+				padding-top: 3px;
+		}
+
+
+/* Dostavka
+-----------------------------------------------------------------------------*/
+
+#dostavka {
+	background: url(/images/bg_dostavkal.jpg) no-repeat center top;
+}
+
+	#dostavka .wrap {
+		height: 473px;
+	}
+
+		#dostavka h3 {
+				height: 43px;
+				font: 30px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #fff;
+				line-height: 36px;
+				padding-top: 63px;
+		}
+
+		#dostavka h4 {
+				height: 78px;
+				font: 22px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #ffea00;
+				line-height: 36px;
+				padding-top: 3px;
+		}
+
+		#dostavka .left {
+				width: 560px;
+		}
+
+		#dostavka .right {
+				width: 352px;
+				padding-top: 41px;
+		}
+
+			#dostavka ul {
+					list-style: none;
+					padding-left: 20px;
+			}
+
+			#dostavka li {
+					background: url(/images/list_1.png) no-repeat left center;
+					height: 41px;
+					font: 15px Arial;
+					color: #fff;
+					line-height: 18px;
+					padding-top: 18px;
+					padding-left: 45px;
+					padding-bottom: 11px;
+			}
+
+			#dostavka li:nth-child(2) {
+					background: url(/images/list_2.png) no-repeat left center;
+			}
+
+			#dostavka li:nth-child(3) {
+					background: url(/images/list_3.png) no-repeat left center;
+			}
+			
+		#dostavka .samovyvoz {
+				background: url(/images/bg_samovyvoz.png) no-repeat;
+				width: 333px;
+				height: 126px;
+		}
+			
+			#dostavka .samovyvoz_text {
+					display: table;
+					padding-top: 26px;
+					margin: 0 auto;
+			}
+			
+			.samovyvoz_text p {
+					height: 16px;
+					font: 18px 'Exo 2', sans-serif;
+					text-align: left;
+					color: #ffea00;
+					line-height: 20px;
+					padding-top: 5px;
+			}
+
+
+/* upakovka
+-----------------------------------------------------------------------------*/
+
+#upakovka {
+	
+}
+
+	#upakovka .wrap {
+		height: 614px;
+	}
+
+		#upakovka h3 {
+				height: 52px;
+				font: 30px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #2d3240;
+				line-height: 36px;
+				padding-top: 63px;
+		}
+
+		#upakovka h4 {
+				height: 87px;
+				font: 18px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #0c389b;
+				line-height: 22px;
+				padding-top: 3px;
+		}
+
+		#upakovka .left, #upakovka .right {
+				width: 500px;
+		}
+
+		#upakovka .label {
+				background: url(/images/upakovka_l.png) no-repeat;
+				height: 33px;
+				width: 219px;
+				font: 15px Arial;
+				text-align: center;
+				color: #2d3240;
+				padding-top: 14px;
+				margin: 0 auto;
+		}
+
+		#upakovka img {
+				margin: 0 auto;
+				display: block;
+				padding-top: 30px;
+		}
+
+
+/* Map
+-----------------------------------------------------------------------------*/
+
+#map {
+   width: 100%;
+   height: 600px;
+   position: relative
+}
+
+    #map #map-block {
+        position: absolute;
+        width: 100%;
+        height: 600px;
+    }
+
+	#map .wrap {
+        position: absolute;
+		height: 569px;
+        z-index: 9998;
+	}
+
+		#map .map_address {
+			background: url(/images/bg_map_address.png) no-repeat;
+			height: 242px;
+			width: 589px;
+			margin: 0 auto;
+            z-index: 9999;
+		}
+
+			.map_address h4 {
+				height: 44px;
+				font: 30px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #fff;
+				line-height: 22px;
+				padding-top: 113px;
+			}
+
+			.map_address h5 {
+				height: 28px;
+				font: 22px 'Exo 2', sans-serif;
+				text-align: center;
+				color: #fff;
+				line-height: 22px;
+				padding-top: 2px;
+			}
+
+/* footer
+-----------------------------------------------------------------------------*/
+
+footer .wrap {
+    height: 110px;
+}
+
+	.logo_foot {
+		width: 341px;
+		display: block;
+		padding-left: 20px;
+		padding-top: 43px;
+	}
+
+		.logo_foot, .logo_foot a {
+			font: 30px 'Exo 2', sans-serif;
+			color: #2d3240;
+			font-style: italic;
+			font-weight: 700;
+			line-height: 20px;
+			text-decoration: none;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left {
+	width: 480px;
+	float: left;
+}
+.right {
+	width: 480px;
+	float: right;
+}
+
