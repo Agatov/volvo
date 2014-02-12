@@ -1,8 +1,8 @@
 # Bundler tasks
 require 'bundler/capistrano'
 
-set :application, "ytcontext"
-set :repository,  "git@github.com:Agatov/ytcontext"
+set :application, "volvo"
+set :repository,  "git@github.com:Agatov/volvo"
 
 set :scm, :git
 
