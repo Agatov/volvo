@@ -7,7 +7,7 @@ function initialize() {
 
     var mapOptions = {
         zoom: 16,
-        center: new google.maps.LatLng(55.7565, 37.6516),
+        center: new google.maps.LatLng(55.686898, 37.528109),
         disableDefaultUI: true,
         scrollwheel: false,
         zoomControl: true,
@@ -24,7 +24,7 @@ function initialize() {
 
 
     var Marker = new google.maps.Marker({
-        position: new google.maps.LatLng(55.75645, 37.6515),
+        position: new google.maps.LatLng(55.686898, 37.528109),
         map: map,
         icon: {
             url: 'assets/marker.png',

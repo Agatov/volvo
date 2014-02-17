@@ -38,20 +38,20 @@ class Application < Sinatra::Base
 
     message = "#{params[:order][:username]}. #{params[:order][:phone]}"
 
-    #Pony.mail ({
-    #  to: 'v.kozlofff@gmail.com',
-    #  subject: I18n.t('email.title', locale: 'ru'),
-    #  body: message,
-    #  via: :smtp,
-    #  via_options: {
-    #    address: 'smtp.gmail.com',
-    #    port: 587,
-    #    enable_starttls_auto: true,
-    #    user_name: 'mimicase.notify',
-    #    password: 'mimicase',
-    #    authentication: :plain
-    #  }
-    #})
+    Pony.mail ({
+      to: 'vsedlyavolvo@gmail.com',
+      subject: I18n.t('email.title', locale: 'ru'),
+      body: message,
+      via: :smtp,
+      via_options: {
+        address: 'smtp.google.com',
+        port: 587,
+        enable_starttls_auto: true,
+        user_name: 'vsedlyavolvo',
+        password: 'moyparol',
+        authentication: :plain
+      }
+    })
 
     content_type :json
     {status: :success}.to_json
