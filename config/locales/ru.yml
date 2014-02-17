@@ -1,3 +1,5 @@
 ru:
   email:
-    title: 'Новая заявка на corp.mimicase.com'
+    title: 'Новая заявка на вседлявольво.рф'
+    car_model: 'Модель автомобиля: %{car_model}'
+    detail_name: 'Название детали %{detail_name}'
