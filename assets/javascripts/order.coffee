@@ -46,11 +46,15 @@ $ ->
       'order[detail_name]': detail_name.val()
 
     }, (data) =>
-      $('.modal-overlay').unbind 'click'
-      $('.modal-overlay').bind 'click', ->
-        hide_thank_you()
 
-      show_thank_you_with_overlay()
+
+    $('.modal-overlay').unbind 'click'
+    $('.modal-overlay').bind 'click', ->
+      hide_thank_you()
+
+    show_thank_you_with_overlay()
+
+    reachGoal 'new_order'
 
     false
 
@@ -148,4 +152,4 @@ window.hide_subscribe_form = ->
 
 
 window.reachGoal = (goal) ->
-  yaCounter22645732.reachGoal(goal)
+  yaCounter24002644.reachGoal(goal)
