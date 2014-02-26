@@ -43,6 +43,14 @@ class Application < Sinatra::Base
     message += I18n.t('email.detail_name', detail_name: params[:order][:detail_name], locale: 'ru')
 
 
+    if params[:utm_term] and params[:utm_campaign]
+      message += "\n \n \n"
+      message += I18n.t('email.utm_term', utm_term: params[:utm_term].gsub('_', ' '), locale: 'ru')
+      message += "\n"
+      message += I18n.t('email.utm_campaign', utm_campaign: params[:utm_campaign], locale: 'ru')
+    end
+
+
     Pony.mail ({
         to: 'vsedlyavolvo@yandex.ru',
         subject: I18n.t('email.title', locale: 'ru'),

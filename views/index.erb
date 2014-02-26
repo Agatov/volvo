@@ -2,13 +2,13 @@
   <section class="wrap">
     <section class="logo fl"><a href="#">Все для Вольво</a></section>
     <section class="address fl">г.Москва, ул. Строителей, дом 17, корпус 2</section>
-    <section class="phone fr">(495) 968-77-63</section>
+    <section class="phone fr"> 8 800 555 98 29</section>
   </section>
 </header>
 <section id="nayti_detal">
   <section class="wrap">
     <h1>Продажа и доставка б/у запчастей Volvo<br />по всей России</h1>
-    <p>Не нужно мучаться в поисках нужной вам детали!<br />
+    <p>Не нужно мучиться в поисках нужной вам детали!<br />
       Оставьте запрос и наш менеджер пришлет вам цену и фотографию необходимой вам детали.</p>
     <a class="button" href="#" id="find-detail">Найти деталь!</a>
   </section>
@@ -65,8 +65,12 @@
           <td >1997 - 2000 г.в.</td>
         </tr>
         <tr>
+          <td >V40</td>
+          <td >2000 - 2004 г.в.</td>
+        </tr>
+        <tr>
           <td >V70</td>
-          <td >1997 - 2008 г.в.</td>
+          <td >1997 - 2014 г.в.</td>
         </tr>
         <tr>
           <td >S40</td>
@@ -83,6 +87,10 @@
         <tr>
           <td width="22%">S60</td>
           <td width="78%">2001 - 2009 г.в</td>
+        </tr>
+        <tr>
+          <td >C70</td>
+          <td >1997 - 2012 г.в.</td>
         </tr>
         <tr>
           <td >XC70</td>
@@ -116,6 +124,15 @@
       <input type="text" name="username" id="name" placeholder="Ваше имя">
       <input type="text" name="phone" id="phone" placeholder="Ваш сотовый для связи">
       <input type="text" name="email" id="email" placeholder="Ваш e-mail">
+      <% if params[:utm_term] %>
+        <input type="hidden" name="utm_term" id="utm_term" value="<%= params[:utm_term] %>">
+      <% end %>
+
+      <% if params[:utm_campaign] %>
+        <input type="hidden" name="utm_campaign" id="utm_campaign" value="<%= params[:utm_campaign] %>">
+      <% end %>
+
+
       <button id="send-order">Отправить</button>
     </div>
   </section>
@@ -124,7 +141,7 @@
   <section class="wrap">
     <h3>От куда мы берем детали</h3>
     <p>Мы участвуем в аукционах на которых продают подержанные автомобили.<br />
-      Мы покупаем машины у бережных европейцев, американцов и японцов.<br />
+      Мы покупаем машины у бережных европейцев, американцев японцев.<br />
       Перед покупкой мы проверяем все детали, так как сами не хотим покупать то что уже вышло из строя.</p>
     <h4>Поэтому мы можем давать 100% гарантию на деталь</h4>
   </section>
@@ -185,6 +202,6 @@
   <section class="wrap">
     <section class="logo_foot fl"><a href="#">Все для Вольво</a></section>
     <section class="address fl">г.Москва, ул. Строителей, дом 17, корпус 2</section>
-    <section class="phone fr">(495) 968-77-63</section>
+    <section class="phone fr"> 8 800 555 98 29</section>
   </section>
 </footer>

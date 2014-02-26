@@ -218,15 +218,15 @@ header .wrap {
 
 	#stoit_li_pokupat .wrap {
 		height: 498px;
+        padding: 40px 0;
 	}
 
 	#stoit_li_pokupat h3 {
-			height: 160px;
+			height: 100px;
 			font: 30px 'Exo 2', sans-serif;
 			text-align: center;
 			color: #fff;
 			line-height: 48px;
-			padding-top: 4px;
 	}
 
 	#stoit_li_pokupat .left {

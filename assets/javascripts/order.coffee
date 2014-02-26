@@ -36,6 +36,9 @@ $ ->
     detail_name = $(@).parent().find('input[name=detail_name]')
     car_model = $(@).parent().find('input[name=car_model]')
 
+    utm_term = $('#utm_term') if $('#utm_term')
+    utm_campaign = $('#utm_campaign') if $('#utm_campaign')
+
 
 
     $.post '/orders.json', {
@@ -43,7 +46,9 @@ $ ->
       'order[phone]': phone.val(),
       'order[email]': email.val(),
       'order[car_model]': car_model.val(),
-      'order[detail_name]': detail_name.val()
+      'order[detail_name]': detail_name.val(),
+      'utm_term': utm_term.val(),
+      'utm_campaign': utm_campaign.val()
 
     }, (data) =>
 
