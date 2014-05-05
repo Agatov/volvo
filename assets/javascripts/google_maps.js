@@ -7,7 +7,7 @@ function initialize() {
 
     var mapOptions = {
         zoom: 16,
-        center: new google.maps.LatLng(55.686898, 37.528109),
+        center: new google.maps.LatLng(55.688913, 37.437945),
         disableDefaultUI: true,
         scrollwheel: false,
         zoomControl: true,
@@ -24,13 +24,13 @@ function initialize() {
 
 
     var Marker = new google.maps.Marker({
-        position: new google.maps.LatLng(55.686898, 37.528109),
+        position: new google.maps.LatLng(55.68955, 37.439),
         map: map,
         icon: {
-            url: 'assets/marker.png',
-            size: new google.maps.Size(67,98),
+            url: '/images/pin.png',
+            size: new google.maps.Size(20,30),
             origin: new google.maps.Point(0,0),
-            anchor: new google.maps.Point(35, 95)
+            anchor: new google.maps.Point(20,30)
         }
     });
     map.mapTypes.set('map_style', styledMap);
